@@ -60,5 +60,5 @@ all_data <- cbind(xTotal, yTotal$activitylabel , subjectData)
 ###############################################################################
 total_mean <- all_data %>% group_by(`yTotal$activitylabel`, subject)  %>% summarize_all(funs(mean))
 colnames(total_mean)[1] <- "label"
-write.table(total_mean, "averages_data.txt", row.name=FALSE)
+write.table(total_mean, "tidyData.txt", row.name=FALSE)
 
