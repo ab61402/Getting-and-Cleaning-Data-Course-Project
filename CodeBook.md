@@ -1,7 +1,7 @@
 # Variables
-Merge raw data x_test, x_train; y_test, y_train; subject_test, subject_train
-x --> main varibale and extract only mean & std features
-y will merge with subject label (label detail reference below)
+* Merge raw data x_test, x_train; y_test, y_train; subject_test, subject_train
+* x --> main varibale and extract only mean & std features
+* y will merge with subject label (label detail reference below)
 
 ## X variable contains:
 * tBodyAccMeanX
